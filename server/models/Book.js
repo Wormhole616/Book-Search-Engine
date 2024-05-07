@@ -1,6 +1,6 @@
 const {Schema} = require('mongoose');
 
-const BookSchema = new Schema({
+const bookSchema = new Schema({
     authors: [
         {
             type: String,
